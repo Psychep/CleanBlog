@@ -1,0 +1,32 @@
+{
+  "name": "cleanblog",
+  "version": "1.0.0",
+  "description": "clean blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psychep/CleanBlog.git"
+  },
+  "keywords": [
+    "patika",
+    "blog"
+  ],
+  "author": "Salih",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Psychep/CleanBlog/issues"
+  },
+  "homepage": "https://github.com/Psychep/CleanBlog#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "prettier": "2.4.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
